@@ -479,7 +479,7 @@ iframe, embed, object, video {
 /*-----------------------------------------------------------------------------------*/
 .slider_container{ width:920px; margin:auto; clear:both; padding:30px 0 0 0;}
 .flex-caption{ position: absolute; right:11px; bottom:20px;}
-.caption_title_line{ width:80%; padding:5px 15px 10px 15px;background:rgba(255, 255, 255, 0.4) none repeat scroll 0 0; color: #303030;}
+.caption_title_line{ width:90%; padding:5px 15px 10px 15px;background:rgba(255, 255, 255, 0.4) none repeat scroll 0 0; color: #303030;}
 .flex-caption h2{ color:#D12516;font-size:20px; padding:5px 0 5px 0; margin:0px;font-family: 'Ovo', serif;}
 
 .flex-container a:active,
@@ -900,3 +900,23 @@ li.dropdown:hover > .dropdown-menu {
 /************************************************
 *** landing reset style ***
 ************************************************/
+.hotlineline {position: fixed;
+    right: 10px;
+    bottom: 10px;
+    z-index: 9000;
+    display: block;
+    background: #fac100;
+    color: red;
+    padding-top: 5px;padding-bottom:5px; padding-left:12px; padding-right: 12px;
+    border-radius: 99px;}
+.hotline .hotline-number{font-size:20px; color: #b20000; font-weight: bold}
+ 
+@media  (max-width: 811px) {
+ 
+    .hotlineline{display :none;}
+    #mudestop{display:none;}
+}
+@media  (min-width: 812px) {
+ 
+   #menumobile{display:none;}    
+}
